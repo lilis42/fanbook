@@ -11,9 +11,9 @@ dotenv_path = join(dirname(__file__), "env")
 
 load_dotenv(dotenv_path)
 
-MONGODB_URI = os.environ.get("MONGODB_URI")
+MONGODB_URI = os.environ.get("mongodb+srv://lilistiyo:1sampai8@cluster0.ve45bmf.mongodb.net/?retryWrites=true&w=majority")
 
-DB_NAME = os.environ.get("DB_NAME")
+DB_NAME = os.environ.get("dbsparta")
 
 client = MongoClient(MONGODB_URI) 
 
